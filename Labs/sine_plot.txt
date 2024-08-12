@@ -1,0 +1,27 @@
+"""
+Now we can put the two previous programs together to complete our plot. Here is our
+sequence of steps.
+
+    Create and set up the turtle and the screen.
+
+    Iterate the angle from 0 to 360.
+
+            Generate the sine value for each angle.
+            Move the turtle to that position (leave a line behind).
+
+Here is a partial program for you to complete.
+"""
+
+import math
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor('lightblue')
+
+fred = turtle.Turtle()
+
+for angle in range(0, 361):
+	print(math.sin(angle))
+	fred.goto(angle, math.sin(angle))
+
+wn.exitonclick()

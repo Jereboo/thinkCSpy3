@@ -1,0 +1,2 @@
+y = y_mean + (slope * (x_cord + x_mean))
+slope = ((all_x * all_y) - (numb_points * x_mean * y_mean))/((all_x ^ 2) - (numb_points * (x_mean ^ 2)))

@@ -1,0 +1,2 @@
+"""A program that prints out the number of dots composing increasingly large equilateral 
+    triangles (Triangular Numbers)"""

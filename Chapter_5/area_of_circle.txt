@@ -1,0 +1,8 @@
+#A program that returns the area of a circle given a radius
+import math
+
+def areaOfCircle(r):
+    Area = pi*r**2
+    return Area
+
+radius = int(input("Please "))
